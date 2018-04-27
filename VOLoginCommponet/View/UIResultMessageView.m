@@ -7,6 +7,7 @@
 //
 
 #import "UIResultMessageView.h"
+#import "VOCategorySet.h"
 
 @interface UIResultMessageView ()
 {
