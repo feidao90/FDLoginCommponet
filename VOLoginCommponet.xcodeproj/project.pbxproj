@@ -13,7 +13,6 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		766330AE8302B9DCF5D9929E /* Pods_VOLoginCommponet_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76F94F8722A6482114090642 /* Pods_VOLoginCommponet_Tests.framework */; };
 		86348C2B20932D5200A33BF8 /* VOLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 86348C0920932D5200A33BF8 /* VOLoginManager.m */; };
 		86348C2C20932D5200A33BF8 /* VOAvatarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 86348C0C20932D5200A33BF8 /* VOAvatarModel.m */; };
 		86348C2D20932D5200A33BF8 /* VOContractTimesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 86348C0E20932D5200A33BF8 /* VOContractTimesModel.m */; };
@@ -88,7 +87,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				766330AE8302B9DCF5D9929E /* Pods_VOLoginCommponet_Tests.framework in Frameworks */,
 				36A5E737DE8EB861E0BB3256 /* libPods-VOLoginCommponet.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
