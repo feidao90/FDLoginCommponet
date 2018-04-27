@@ -1,16 +1,25 @@
 PODS:
+  - VOBaseViewController (1.0.0):
+    - VOToleranceTool (~> 0.0.2)
+  - VOJSONModel (0.0.1)
   - VOToleranceTool (0.0.2)
 
 DEPENDENCIES:
+  - VOBaseViewController (= 1.0.0)
+  - VOJSONModel (= 0.0.1)
   - VOToleranceTool (= 0.0.2)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - VOBaseViewController
+    - VOJSONModel
     - VOToleranceTool
 
 SPEC CHECKSUMS:
+  VOBaseViewController: 18f3dbb8cf93afa47660ca921a27da6378f24ec4
+  VOJSONModel: 37e3d646476493edaf3ca072b5a8005e3d32a00e
   VOToleranceTool: eb43d7ed92ac04b79be01759757f7736cff48382
 
-PODFILE CHECKSUM: 34d4a8d9e64081c1c985cd036e9a9beb2fc1b6ed
+PODFILE CHECKSUM: ddc1002a69a9882b4eb6b959d3181dda9230d542
 
 COCOAPODS: 1.5.0

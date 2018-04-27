@@ -7,98 +7,179 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		022A0281AEAFBB17C210392BFD46CEDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		08D26ED922AA8FABA7D202FEC6D1B405 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 8783189B2BD9DBC7BABCBB53BF2FD0F1 /* UIView+Frame.m */; };
-		18207AAAB3B2366250BFDB8B4EA56ADE /* NSArray+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAC3E9274D3DD390B5B7157722603D2 /* NSArray+Category.m */; };
-		1B660A52EF8CB143A1A72F39D8DFCE3A /* NSString+URLCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC3D07C2CF6091AC2D0DDB2CA1B94D1 /* NSString+URLCode.m */; };
-		358739A6D8181B5E6B14339F9BA7ED47 /* NSString+ReplaceSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = 78FE468A9FBA0E7F51D9842EFE371B60 /* NSString+ReplaceSpace.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3E21821F24B5DCABD1886A2428D0EA72 /* UIColor+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF68157B64C02839EF8E514FD33AA5D /* UIColor+Category.m */; };
-		3F9FD88F0FF9C502AED9117E25FD0D21 /* NSMutableArray+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B8E6879B4C953D0DB93133F1191BAF4 /* NSMutableArray+Category.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		58F2EB7070B16CE8BB4F5E6F35CD8E6C /* NSMutableDictionary+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = C76A1D8EDEEC1082E89DD3A5A94EEDAE /* NSMutableDictionary+Category.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5E17BC4BF713712F08869B988A02A1C1 /* UIView+Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = D2DE708D32B264196202A91BD754F84C /* UIView+Frame.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5E5D2F191AAA58B94FC4BA14EEB3D8EE /* UIColor+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = 5623421E6317BA7944802A2A3A46A915 /* UIColor+Category.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		62F8EA60C199F5671E1CDFD111301957 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D69A8C2C65D6751E304E82949D905EA /* UIImage+Color.m */; };
-		6EC53009521A4DE87DC05248F4E5F36E /* NSString+URLCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EDA5A4948385C156BE7EF10CDE1B7BB /* NSString+URLCode.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		76911C28159BAB0E68F6B79EEE8B6C15 /* NSMutableDictionary+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DDFCA87263EBA4FA9E7449362B664E /* NSMutableDictionary+Category.m */; };
-		7AE1D463591D97DDD1130859BCD99179 /* UIImage+Color.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C4BC1140C4901EFE2BFAEA43A64C3AE /* UIImage+Color.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7BD808458CDA325D7741E0F215C8DA88 /* NSArray+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D955C163D35758FE1FE2E6439A3F2ED /* NSArray+Category.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		80BD90B92ED3688D603562FA3443D033 /* NSString+DateString.m in Sources */ = {isa = PBXBuildFile; fileRef = EC20F63D8206F8539D3C9DA991ABB0C5 /* NSString+DateString.m */; };
-		93C51106B23C4748807DC738A790AA68 /* NSDictionary+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = E2B02D31280CDF8915EFD702CF51E702 /* NSDictionary+Category.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		98F4BE2EFDF2148ED7ABAB0C45935479 /* NSMutableArray+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A07B4E5B4324828E3C2F952A8A8BEA4 /* NSMutableArray+Category.m */; };
-		A931B0B92211B9F7FEDD868AF14309EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		AFC4CD6AC5ACD7506407417E33937D58 /* NSString+DateString.h in Headers */ = {isa = PBXBuildFile; fileRef = BC84AADE9838DE8895AE2AEEEC36AAF1 /* NSString+DateString.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B1FC7CF36603780B56F19BEA2736F2EC /* NSDictionary+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FB02403AE0486055765A26B3C1A8D8 /* NSDictionary+Category.m */; };
-		BF23E834E88BD4A5CDA680FE552DDC4F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
-		CD09AC54F4322451904778D25C6F5B03 /* VOToleranceTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FA6FC542E00CA8D7858EE97D6D3F8A /* VOToleranceTool-dummy.m */; };
-		CDD77D167333DBEF361D634A58586067 /* VOCategorySet.h in Headers */ = {isa = PBXBuildFile; fileRef = 29B9CE7C02A19D1FF6C746901087032F /* VOCategorySet.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CEADCE0A72993161627CA8CAD765D6EA /* NSString+ReplaceSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1B2E90511FDBF340BC9A4EE351B663 /* NSString+ReplaceSpace.m */; };
-		D2A49C0995102677D03817259997619D /* Pods-VOLoginCommponet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B24F1D8F64F09B8EE296877CACCC463C /* Pods-VOLoginCommponet-dummy.m */; };
+		0B49E2E7A32228952317592B7572D322 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		10810E73EA129C292AF0C23928D4193A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		11291F71039DEA2D79DC786DEC15990B /* VOJSONModelKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D1236F833504CEBF2F716E0FE8C55FF /* VOJSONModelKeyMapper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		21975E3A705CC20152010158091DB3A5 /* NSArray+VOJSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 15BB0F5FCE703DDD7EC241C381C13B41 /* NSArray+VOJSONModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		257FD7018D79E0A67EC633E30C12CFAF /* VOBaseViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 795A2D850075BECDF205902A22FC8CCF /* VOBaseViewController-dummy.m */; };
+		260DA6CA0B4A26CC1F22BA1FB8721EF0 /* VOJSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3A40CECB7B5B27EBECBE0E1C944542 /* VOJSONModelError.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2702AF681093DD6F7652B619CA1F129B /* NSArray+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = CB702C21631052CEF628FE98B2433F1B /* NSArray+Category.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2AC2F9FE568DAAA4FED484B15036A564 /* NSDictionary+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = C2088BF1BFC5784DE171281AB5ED4578 /* NSDictionary+Category.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2F2ACE17DD9835ADCB0D10421CEDCC07 /* NSString+ReplaceSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = EF844959D75C9C251FB305B4215D2579 /* NSString+ReplaceSpace.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		33799F2A5926253F60454DDA2D949BED /* VOCategorySet.h in Headers */ = {isa = PBXBuildFile; fileRef = 17C5D6556B7A6149759F46934E6C1A22 /* VOCategorySet.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3ECC1287571BFBBC3D72B8C7C8EEBEA9 /* NSString+URLCode.m in Sources */ = {isa = PBXBuildFile; fileRef = CD852A22DA4EDAABB55964151074ADAB /* NSString+URLCode.m */; };
+		3F34B63A8701D8FF024E166F9FB82404 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D886AAA2F378E869CE7CB33AE36720 /* UIImage+Color.m */; };
+		45F17084C02D7BE0B5493171932DEA29 /* VOJSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC30FA2EBF4B8AC244AF16704BC9D4A9 /* VOJSONModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4643AE3BBE81E6364ECB7519673221D2 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AED3F04CB970BEF91898168ABF35DE8 /* BaseViewController.m */; };
+		4DDB6CA581382CEE41FFB76A2072ADD2 /* UIView+Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = 8857FF956FEA107D9BDB5A58D1136B25 /* UIView+Frame.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4FC6A21BA822BA06459B7AEAB2BD02DA /* NSString+ReplaceSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 42237FB26FA44FBEE45DBA46F1F9D252 /* NSString+ReplaceSpace.m */; };
+		59D11617CEB7491D2BE7CD9D9F1E8CA5 /* VOBaseNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3F51BB9B6569FEC474243FAC1F0307 /* VOBaseNavViewController.m */; };
+		6165A6857B7F978273D49F32430FA96E /* NSString+DateString.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B44D5F6AC9CB4913A8E5058B611C9A /* NSString+DateString.m */; };
+		6697F722AB66D451B81F596207501105 /* NSMutableArray+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AB5303429C71763072F42AA88BB09E7 /* NSMutableArray+Category.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6837FB43808CE39066A1E81D80071F1D /* VOJSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 199E73BDAD7202D29F3C4E3F4E7792B8 /* VOJSONModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6864BC497F3C41053AF923425F7CD0BD /* BaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FF155E0E9A53950BED7F8FBF84950927 /* BaseViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6933D7FC9DFE15D756DD02199711F222 /* NSArray+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D25007FC0D8F976EAD3034B00389746 /* NSArray+Category.m */; };
+		78E9B82F9851ADD00EDEB71055327EBF /* NSDictionary+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F987CFAA208AD0BE4D97EF002981FFB /* NSDictionary+Category.m */; };
+		860DC5A4C8CA094E4A0C38D4C89996E3 /* NSArray+VOJSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FE372727005A57DB11C27F00F354FB03 /* NSArray+VOJSONModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8CE8887A6E7317C8395615323FC8D90D /* Pods-VOLoginCommponet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B24F1D8F64F09B8EE296877CACCC463C /* Pods-VOLoginCommponet-dummy.m */; };
+		90AB3802C525FD7B87D8DBF9C127EE8D /* VOJSONModelProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = E6172D26A4541FFD96A806F38F2998CE /* VOJSONModelProperty.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9E4E2BCD7872012E5565D92522559F5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		A1D15A6E0D32F6BD00B3907D5AE5D3FB /* NSString+DateString.h in Headers */ = {isa = PBXBuildFile; fileRef = DD676C980FD7BFEF2CACDFDC82770813 /* NSString+DateString.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A56684E400483C75C1F93E2E6EF5AAC8 /* VOJSONModelKeyMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = F04781B06E4CF5EB4C706CCE39E51B02 /* VOJSONModelKeyMapper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A5A95B6F7A06F674951400091F2B0C52 /* NSMutableDictionary+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EC51E77F4B225276C8F08F1EEBDE8FD /* NSMutableDictionary+Category.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A93E0F282F49B40AB9BB407F776DCD24 /* UIImage+Color.h in Headers */ = {isa = PBXBuildFile; fileRef = B7F4F5A80817784D3FD5D75F8A8BD9E8 /* UIImage+Color.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B57DDF6E5C247670001625F75513F501 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A6AB7B9E79FDDA205CFB9D1B4D6E3C /* UIView+Frame.m */; };
+		BB0BFF6F3FA663624198765A8189F1D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		BE529179A7191C9311ACF1BFBCB7AC44 /* VOToleranceTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3DF5AEC3E2237BE2A023E3B52FB5F2 /* VOToleranceTool-dummy.m */; };
+		C1486409C9D2DF61E9CC2D2EF995C135 /* NSString+URLCode.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6B8FE975FE924B38DEBFDFD10B0911 /* NSString+URLCode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CDC8A4336E351ED0F3712DDFF63824F6 /* UIColor+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B04ADBBB21300DF1BF98B32F2D68D70 /* UIColor+Category.m */; };
+		CE142655B045578FC0412B23BD96EB61 /* VOJSONModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B52E1E87A6CFDE784C992C4BC7E46F9 /* VOJSONModel-dummy.m */; };
+		D4F2584C8185E139DD3837F699D73FBE /* VOJSONModelProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFC9630AED1F8235C78092307E35EC3 /* VOJSONModelProperty.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E4829F8FAF05F3E0015D0770DEA0660E /* NSDictionary+VOJSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DC285554C6BE795AAC8D56E979C2B59F /* NSDictionary+VOJSONModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E8D4E478C07D2777AD5327C4B2B2F49D /* VOJSONModelError.h in Headers */ = {isa = PBXBuildFile; fileRef = ABE0F502E5803AAF25A675CEFEE2B000 /* VOJSONModelError.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ED73343A6DBA559883788DF1FFEB1E1D /* NSMutableDictionary+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 572ABAAEC5C0E4F6B711FE3901DDF943 /* NSMutableDictionary+Category.m */; };
+		EE88E1B00FB79E76825236023F4319EF /* UIColor+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F0716A16E1DEB2449DE75A515300B6D /* UIColor+Category.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F034D3AF5FECFC1303281C12A811DA08 /* VOBaseNavViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E169E6D67BE44F3E919D0398FEEDA07 /* VOBaseNavViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F5FD01BE03BCF350277FC801CD85EF04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		F7B42BA689922392467712B6544D2EBB /* NSDictionary+VOJSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A45C132001B9E588BCDE57BFC2A0CF29 /* NSDictionary+VOJSONModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FF7A7935CE09C1CE5B8F4655AC5E0F96 /* NSMutableArray+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 80EC0D210E4AFCA2E83A9786C5F7F5A1 /* NSMutableArray+Category.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2D917CBB646FB8DEB2F2CE118973EA8B /* PBXContainerItemProxy */ = {
+		58EABF59C12A8D97EA2E3C0CFB37880E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2AE9EB54BD3EB824FF71E6A0C0757537;
+			remoteGlobalIDString = 985754C00EE7A80FFE723BA23381DA59;
+			remoteInfo = VOJSONModel;
+		};
+		65E51FEBA02CE794D38C11C69E92FE2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4036BD03F5F10E22000FABD5BA4B8C5;
+			remoteInfo = VOBaseViewController;
+		};
+		83604A566A13DD7FEE3838A7975B2C4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DE48963679D5B2552480B50E81F32E1;
+			remoteInfo = VOToleranceTool;
+		};
+		DB8CE725DF0E62EE4804A133CF6D7766 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DE48963679D5B2552480B50E81F32E1;
 			remoteInfo = VOToleranceTool;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1B8E6879B4C953D0DB93133F1191BAF4 /* NSMutableArray+Category.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+Category.h"; path = "VOToleranceTool/NSMutableArray+Category.h"; sourceTree = "<group>"; };
-		1D955C163D35758FE1FE2E6439A3F2ED /* NSArray+Category.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Category.h"; path = "VOToleranceTool/NSArray+Category.h"; sourceTree = "<group>"; };
-		1F1B2E90511FDBF340BC9A4EE351B663 /* NSString+ReplaceSpace.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+ReplaceSpace.m"; path = "VOToleranceTool/NSString+ReplaceSpace.m"; sourceTree = "<group>"; };
-		27CC369797DDA4B8309DA83550EDF8B6 /* libVOToleranceTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libVOToleranceTool.a; path = libVOToleranceTool.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		29B9CE7C02A19D1FF6C746901087032F /* VOCategorySet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VOCategorySet.h; path = VOToleranceTool/VOCategorySet.h; sourceTree = "<group>"; };
-		2D69A8C2C65D6751E304E82949D905EA /* UIImage+Color.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Color.m"; path = "VOToleranceTool/UIImage+Color.m"; sourceTree = "<group>"; };
-		2DAC3E9274D3DD390B5B7157722603D2 /* NSArray+Category.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Category.m"; path = "VOToleranceTool/NSArray+Category.m"; sourceTree = "<group>"; };
-		34DDFCA87263EBA4FA9E7449362B664E /* NSMutableDictionary+Category.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableDictionary+Category.m"; path = "VOToleranceTool/NSMutableDictionary+Category.m"; sourceTree = "<group>"; };
-		3EC3D07C2CF6091AC2D0DDB2CA1B94D1 /* NSString+URLCode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+URLCode.m"; path = "VOToleranceTool/NSString+URLCode.m"; sourceTree = "<group>"; };
+		0B52E1E87A6CFDE784C992C4BC7E46F9 /* VOJSONModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VOJSONModel-dummy.m"; sourceTree = "<group>"; };
+		15BB0F5FCE703DDD7EC241C381C13B41 /* NSArray+VOJSONModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+VOJSONModel.h"; path = "VOJSONModel/NSArray+VOJSONModel.h"; sourceTree = "<group>"; };
+		17C5D6556B7A6149759F46934E6C1A22 /* VOCategorySet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VOCategorySet.h; path = VOToleranceTool/VOCategorySet.h; sourceTree = "<group>"; };
+		199E73BDAD7202D29F3C4E3F4E7792B8 /* VOJSONModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VOJSONModel.h; path = VOJSONModel/VOJSONModel.h; sourceTree = "<group>"; };
+		1B3DF5AEC3E2237BE2A023E3B52FB5F2 /* VOToleranceTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VOToleranceTool-dummy.m"; sourceTree = "<group>"; };
+		1D25007FC0D8F976EAD3034B00389746 /* NSArray+Category.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Category.m"; path = "VOToleranceTool/NSArray+Category.m"; sourceTree = "<group>"; };
+		1E169E6D67BE44F3E919D0398FEEDA07 /* VOBaseNavViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VOBaseNavViewController.h; path = VOBaseViewController/VOBaseNavViewController.h; sourceTree = "<group>"; };
+		1EE6AA21CE8F76FF21C43C94649E2D01 /* VOJSONModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VOJSONModel-prefix.pch"; sourceTree = "<group>"; };
+		2AB5303429C71763072F42AA88BB09E7 /* NSMutableArray+Category.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+Category.h"; path = "VOToleranceTool/NSMutableArray+Category.h"; sourceTree = "<group>"; };
+		36D886AAA2F378E869CE7CB33AE36720 /* UIImage+Color.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Color.m"; path = "VOToleranceTool/UIImage+Color.m"; sourceTree = "<group>"; };
+		3F6BC01B6A4E55A43F741B52A1D2AEC7 /* VOBaseViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VOBaseViewController-prefix.pch"; sourceTree = "<group>"; };
+		42237FB26FA44FBEE45DBA46F1F9D252 /* NSString+ReplaceSpace.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+ReplaceSpace.m"; path = "VOToleranceTool/NSString+ReplaceSpace.m"; sourceTree = "<group>"; };
 		467CD471BD67C4C87C0F04FD91E0D8F7 /* Pods-VOLoginCommponet-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VOLoginCommponet-acknowledgements.plist"; sourceTree = "<group>"; };
-		4C4BC1140C4901EFE2BFAEA43A64C3AE /* UIImage+Color.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Color.h"; path = "VOToleranceTool/UIImage+Color.h"; sourceTree = "<group>"; };
+		4EC51E77F4B225276C8F08F1EEBDE8FD /* NSMutableDictionary+Category.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+Category.h"; path = "VOToleranceTool/NSMutableDictionary+Category.h"; sourceTree = "<group>"; };
 		543D43F1E3F0FFCDF6CCFAF0EAF6FA20 /* Pods-VOLoginCommponet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VOLoginCommponet.release.xcconfig"; sourceTree = "<group>"; };
-		5623421E6317BA7944802A2A3A46A915 /* UIColor+Category.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Category.h"; path = "VOToleranceTool/UIColor+Category.h"; sourceTree = "<group>"; };
+		572ABAAEC5C0E4F6B711FE3901DDF943 /* NSMutableDictionary+Category.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableDictionary+Category.m"; path = "VOToleranceTool/NSMutableDictionary+Category.m"; sourceTree = "<group>"; };
 		57D46CB129497049959B1A1FC496CBB3 /* Pods-VOLoginCommponet-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VOLoginCommponet-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5CF68157B64C02839EF8E514FD33AA5D /* UIColor+Category.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Category.m"; path = "VOToleranceTool/UIColor+Category.m"; sourceTree = "<group>"; };
-		5EDA5A4948385C156BE7EF10CDE1B7BB /* NSString+URLCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+URLCode.h"; path = "VOToleranceTool/NSString+URLCode.h"; sourceTree = "<group>"; };
-		6A07B4E5B4324828E3C2F952A8A8BEA4 /* NSMutableArray+Category.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+Category.m"; path = "VOToleranceTool/NSMutableArray+Category.m"; sourceTree = "<group>"; };
-		704959D877F76DC53647AC98012E50C3 /* libPods-VOLoginCommponet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-VOLoginCommponet.a"; path = "libPods-VOLoginCommponet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AED3F04CB970BEF91898168ABF35DE8 /* BaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = VOBaseViewController/BaseViewController.m; sourceTree = "<group>"; };
+		6B04ADBBB21300DF1BF98B32F2D68D70 /* UIColor+Category.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Category.m"; path = "VOToleranceTool/UIColor+Category.m"; sourceTree = "<group>"; };
+		6F987CFAA208AD0BE4D97EF002981FFB /* NSDictionary+Category.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+Category.m"; path = "VOToleranceTool/NSDictionary+Category.m"; sourceTree = "<group>"; };
 		70E671B78DA4FC422E81ABD7D4AE28BF /* Pods-VOLoginCommponet-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VOLoginCommponet-frameworks.sh"; sourceTree = "<group>"; };
 		71A25491CF32A67D0F0B756BF8650F4B /* Pods-VOLoginCommponet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VOLoginCommponet.debug.xcconfig"; sourceTree = "<group>"; };
-		78FE468A9FBA0E7F51D9842EFE371B60 /* NSString+ReplaceSpace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+ReplaceSpace.h"; path = "VOToleranceTool/NSString+ReplaceSpace.h"; sourceTree = "<group>"; };
-		81FA6FC542E00CA8D7858EE97D6D3F8A /* VOToleranceTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VOToleranceTool-dummy.m"; sourceTree = "<group>"; };
-		8783189B2BD9DBC7BABCBB53BF2FD0F1 /* UIView+Frame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Frame.m"; path = "VOToleranceTool/UIView+Frame.m"; sourceTree = "<group>"; };
+		795A2D850075BECDF205902A22FC8CCF /* VOBaseViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VOBaseViewController-dummy.m"; sourceTree = "<group>"; };
+		7F0716A16E1DEB2449DE75A515300B6D /* UIColor+Category.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Category.h"; path = "VOToleranceTool/UIColor+Category.h"; sourceTree = "<group>"; };
+		7FFC9630AED1F8235C78092307E35EC3 /* VOJSONModelProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VOJSONModelProperty.m; path = VOJSONModel/VOJSONModelProperty.m; sourceTree = "<group>"; };
+		80EC0D210E4AFCA2E83A9786C5F7F5A1 /* NSMutableArray+Category.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+Category.m"; path = "VOToleranceTool/NSMutableArray+Category.m"; sourceTree = "<group>"; };
 		883EEDC5C3F6CD7CD396426A72D1C997 /* Pods-VOLoginCommponet-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VOLoginCommponet-resources.sh"; sourceTree = "<group>"; };
+		8857FF956FEA107D9BDB5A58D1136B25 /* UIView+Frame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Frame.h"; path = "VOToleranceTool/UIView+Frame.h"; sourceTree = "<group>"; };
+		8C982363DC87526865AF285A1A7C2205 /* VOToleranceTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VOToleranceTool.xcconfig; sourceTree = "<group>"; };
+		8D1236F833504CEBF2F716E0FE8C55FF /* VOJSONModelKeyMapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VOJSONModelKeyMapper.m; path = VOJSONModel/VOJSONModelKeyMapper.m; sourceTree = "<group>"; };
+		8D3A40CECB7B5B27EBECBE0E1C944542 /* VOJSONModelError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VOJSONModelError.m; path = VOJSONModel/VOJSONModelError.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94FB02403AE0486055765A26B3C1A8D8 /* NSDictionary+Category.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+Category.m"; path = "VOToleranceTool/NSDictionary+Category.m"; sourceTree = "<group>"; };
+		A0B504569C02B0C8346619CE2E207070 /* libVOToleranceTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libVOToleranceTool.a; path = libVOToleranceTool.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A45C132001B9E588BCDE57BFC2A0CF29 /* NSDictionary+VOJSONModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+VOJSONModel.h"; path = "VOJSONModel/NSDictionary+VOJSONModel.h"; sourceTree = "<group>"; };
+		A68BC2806D68263FE40BD879295067E5 /* libVOBaseViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libVOBaseViewController.a; path = libVOBaseViewController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A97BBDF21EAAEA8E2192F194622413AE /* VOToleranceTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VOToleranceTool-prefix.pch"; sourceTree = "<group>"; };
+		AA3F51BB9B6569FEC474243FAC1F0307 /* VOBaseNavViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VOBaseNavViewController.m; path = VOBaseViewController/VOBaseNavViewController.m; sourceTree = "<group>"; };
+		ABE0F502E5803AAF25A675CEFEE2B000 /* VOJSONModelError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VOJSONModelError.h; path = VOJSONModel/VOJSONModelError.h; sourceTree = "<group>"; };
+		B143525924900506AE567463E0723206 /* VOJSONModel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VOJSONModel.xcconfig; sourceTree = "<group>"; };
 		B24F1D8F64F09B8EE296877CACCC463C /* Pods-VOLoginCommponet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VOLoginCommponet-dummy.m"; sourceTree = "<group>"; };
+		B2A6AB7B9E79FDDA205CFB9D1B4D6E3C /* UIView+Frame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Frame.m"; path = "VOToleranceTool/UIView+Frame.m"; sourceTree = "<group>"; };
 		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		BC84AADE9838DE8895AE2AEEEC36AAF1 /* NSString+DateString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+DateString.h"; path = "VOToleranceTool/NSString+DateString.h"; sourceTree = "<group>"; };
-		C76A1D8EDEEC1082E89DD3A5A94EEDAE /* NSMutableDictionary+Category.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+Category.h"; path = "VOToleranceTool/NSMutableDictionary+Category.h"; sourceTree = "<group>"; };
-		D1F0675762672AEB3C5BAD6E3558C4B9 /* VOToleranceTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VOToleranceTool.xcconfig; sourceTree = "<group>"; };
-		D2DE708D32B264196202A91BD754F84C /* UIView+Frame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Frame.h"; path = "VOToleranceTool/UIView+Frame.h"; sourceTree = "<group>"; };
+		B7F4F5A80817784D3FD5D75F8A8BD9E8 /* UIImage+Color.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Color.h"; path = "VOToleranceTool/UIImage+Color.h"; sourceTree = "<group>"; };
+		BC30FA2EBF4B8AC244AF16704BC9D4A9 /* VOJSONModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VOJSONModel.m; path = VOJSONModel/VOJSONModel.m; sourceTree = "<group>"; };
+		C2088BF1BFC5784DE171281AB5ED4578 /* NSDictionary+Category.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+Category.h"; path = "VOToleranceTool/NSDictionary+Category.h"; sourceTree = "<group>"; };
+		CB702C21631052CEF628FE98B2433F1B /* NSArray+Category.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Category.h"; path = "VOToleranceTool/NSArray+Category.h"; sourceTree = "<group>"; };
+		CD852A22DA4EDAABB55964151074ADAB /* NSString+URLCode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+URLCode.m"; path = "VOToleranceTool/NSString+URLCode.m"; sourceTree = "<group>"; };
+		CE431EB33F86E80831504928966929B0 /* VOBaseViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VOBaseViewController.xcconfig; sourceTree = "<group>"; };
+		CEFF60C8C61712410CEB0BC426CA9ED1 /* libVOJSONModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libVOJSONModel.a; path = libVOJSONModel.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E0AAEBB6D733431592CCA820D4358BD5 /* VOToleranceTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VOToleranceTool-prefix.pch"; sourceTree = "<group>"; };
-		E2B02D31280CDF8915EFD702CF51E702 /* NSDictionary+Category.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+Category.h"; path = "VOToleranceTool/NSDictionary+Category.h"; sourceTree = "<group>"; };
-		EC20F63D8206F8539D3C9DA991ABB0C5 /* NSString+DateString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+DateString.m"; path = "VOToleranceTool/NSString+DateString.m"; sourceTree = "<group>"; };
+		D8B44D5F6AC9CB4913A8E5058B611C9A /* NSString+DateString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+DateString.m"; path = "VOToleranceTool/NSString+DateString.m"; sourceTree = "<group>"; };
+		DC285554C6BE795AAC8D56E979C2B59F /* NSDictionary+VOJSONModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+VOJSONModel.m"; path = "VOJSONModel/NSDictionary+VOJSONModel.m"; sourceTree = "<group>"; };
+		DD4EB1F09678C39D8E2EAD90A3199E84 /* libPods-VOLoginCommponet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-VOLoginCommponet.a"; path = "libPods-VOLoginCommponet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD676C980FD7BFEF2CACDFDC82770813 /* NSString+DateString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+DateString.h"; path = "VOToleranceTool/NSString+DateString.h"; sourceTree = "<group>"; };
+		E6172D26A4541FFD96A806F38F2998CE /* VOJSONModelProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VOJSONModelProperty.h; path = VOJSONModel/VOJSONModelProperty.h; sourceTree = "<group>"; };
+		EF844959D75C9C251FB305B4215D2579 /* NSString+ReplaceSpace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+ReplaceSpace.h"; path = "VOToleranceTool/NSString+ReplaceSpace.h"; sourceTree = "<group>"; };
+		F04781B06E4CF5EB4C706CCE39E51B02 /* VOJSONModelKeyMapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VOJSONModelKeyMapper.h; path = VOJSONModel/VOJSONModelKeyMapper.h; sourceTree = "<group>"; };
+		FE372727005A57DB11C27F00F354FB03 /* NSArray+VOJSONModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+VOJSONModel.m"; path = "VOJSONModel/NSArray+VOJSONModel.m"; sourceTree = "<group>"; };
+		FE6B8FE975FE924B38DEBFDFD10B0911 /* NSString+URLCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+URLCode.h"; path = "VOToleranceTool/NSString+URLCode.h"; sourceTree = "<group>"; };
+		FF155E0E9A53950BED7F8FBF84950927 /* BaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = VOBaseViewController/BaseViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3F42247FF33FA3134B03EF42ED7C5651 /* Frameworks */ = {
+		47C25223AFBAE25717F21979AB4819D2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				022A0281AEAFBB17C210392BFD46CEDA /* Foundation.framework in Frameworks */,
+				10810E73EA129C292AF0C23928D4193A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9EF5255BC26023FFBDFEC9D998131C9D /* Frameworks */ = {
+		6BF414E2E927CB98B7B8701958175B55 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A931B0B92211B9F7FEDD868AF14309EB /* Foundation.framework in Frameworks */,
-				BF23E834E88BD4A5CDA680FE552DDC4F /* UIKit.framework in Frameworks */,
+				F5FD01BE03BCF350277FC801CD85EF04 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89B9101A0031A6096E091F566F49CD37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B49E2E7A32228952317592B7572D322 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDFD741F78BCBC337C43F8DC33D660C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E4E2BCD7872012E5565D92522559F5D /* Foundation.framework in Frameworks */,
+				BB0BFF6F3FA663624198765A8189F1D7 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +192,27 @@
 				FFE86DE8F5745B71027AC4393B104152 /* Pods-VOLoginCommponet */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1E8782D8BF9D3B718605FF30D26CA6A0 /* VOJSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				15BB0F5FCE703DDD7EC241C381C13B41 /* NSArray+VOJSONModel.h */,
+				FE372727005A57DB11C27F00F354FB03 /* NSArray+VOJSONModel.m */,
+				A45C132001B9E588BCDE57BFC2A0CF29 /* NSDictionary+VOJSONModel.h */,
+				DC285554C6BE795AAC8D56E979C2B59F /* NSDictionary+VOJSONModel.m */,
+				199E73BDAD7202D29F3C4E3F4E7792B8 /* VOJSONModel.h */,
+				BC30FA2EBF4B8AC244AF16704BC9D4A9 /* VOJSONModel.m */,
+				ABE0F502E5803AAF25A675CEFEE2B000 /* VOJSONModelError.h */,
+				8D3A40CECB7B5B27EBECBE0E1C944542 /* VOJSONModelError.m */,
+				F04781B06E4CF5EB4C706CCE39E51B02 /* VOJSONModelKeyMapper.h */,
+				8D1236F833504CEBF2F716E0FE8C55FF /* VOJSONModelKeyMapper.m */,
+				E6172D26A4541FFD96A806F38F2998CE /* VOJSONModelProperty.h */,
+				7FFC9630AED1F8235C78092307E35EC3 /* VOJSONModelProperty.m */,
+				99D308010179D51A2FDD05007EC70D12 /* Support Files */,
+			);
+			name = VOJSONModel;
+			path = VOJSONModel;
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -135,68 +237,107 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				9BA2A4792E505A4296B580D5CD7DC822 /* Pods */,
-				E571AFE59985C15B883CA11BE89110C7 /* Products */,
+				85C0207C404291336DEB04ACB3211921 /* Pods */,
+				9E9E0B9C8FA1BBB4732931304FC16EB5 /* Products */,
 				1D0E4E04B434CDB6A7EEB93593DA29A2 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9BA2A4792E505A4296B580D5CD7DC822 /* Pods */ = {
+		82D6B1CA82A6D01FED4341A6AC01D011 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CB9AEC869C556698D5DF7B3182CDE41A /* VOToleranceTool */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		CB9AEC869C556698D5DF7B3182CDE41A /* VOToleranceTool */ = {
-			isa = PBXGroup;
-			children = (
-				1D955C163D35758FE1FE2E6439A3F2ED /* NSArray+Category.h */,
-				2DAC3E9274D3DD390B5B7157722603D2 /* NSArray+Category.m */,
-				E2B02D31280CDF8915EFD702CF51E702 /* NSDictionary+Category.h */,
-				94FB02403AE0486055765A26B3C1A8D8 /* NSDictionary+Category.m */,
-				1B8E6879B4C953D0DB93133F1191BAF4 /* NSMutableArray+Category.h */,
-				6A07B4E5B4324828E3C2F952A8A8BEA4 /* NSMutableArray+Category.m */,
-				C76A1D8EDEEC1082E89DD3A5A94EEDAE /* NSMutableDictionary+Category.h */,
-				34DDFCA87263EBA4FA9E7449362B664E /* NSMutableDictionary+Category.m */,
-				BC84AADE9838DE8895AE2AEEEC36AAF1 /* NSString+DateString.h */,
-				EC20F63D8206F8539D3C9DA991ABB0C5 /* NSString+DateString.m */,
-				78FE468A9FBA0E7F51D9842EFE371B60 /* NSString+ReplaceSpace.h */,
-				1F1B2E90511FDBF340BC9A4EE351B663 /* NSString+ReplaceSpace.m */,
-				5EDA5A4948385C156BE7EF10CDE1B7BB /* NSString+URLCode.h */,
-				3EC3D07C2CF6091AC2D0DDB2CA1B94D1 /* NSString+URLCode.m */,
-				5623421E6317BA7944802A2A3A46A915 /* UIColor+Category.h */,
-				5CF68157B64C02839EF8E514FD33AA5D /* UIColor+Category.m */,
-				4C4BC1140C4901EFE2BFAEA43A64C3AE /* UIImage+Color.h */,
-				2D69A8C2C65D6751E304E82949D905EA /* UIImage+Color.m */,
-				D2DE708D32B264196202A91BD754F84C /* UIView+Frame.h */,
-				8783189B2BD9DBC7BABCBB53BF2FD0F1 /* UIView+Frame.m */,
-				29B9CE7C02A19D1FF6C746901087032F /* VOCategorySet.h */,
-				E4A91F3E85F53DA7501492B39509BA65 /* Support Files */,
-			);
-			name = VOToleranceTool;
-			path = VOToleranceTool;
-			sourceTree = "<group>";
-		};
-		E4A91F3E85F53DA7501492B39509BA65 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D1F0675762672AEB3C5BAD6E3558C4B9 /* VOToleranceTool.xcconfig */,
-				81FA6FC542E00CA8D7858EE97D6D3F8A /* VOToleranceTool-dummy.m */,
-				E0AAEBB6D733431592CCA820D4358BD5 /* VOToleranceTool-prefix.pch */,
+				8C982363DC87526865AF285A1A7C2205 /* VOToleranceTool.xcconfig */,
+				1B3DF5AEC3E2237BE2A023E3B52FB5F2 /* VOToleranceTool-dummy.m */,
+				A97BBDF21EAAEA8E2192F194622413AE /* VOToleranceTool-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/VOToleranceTool";
 			sourceTree = "<group>";
 		};
-		E571AFE59985C15B883CA11BE89110C7 /* Products */ = {
+		85C0207C404291336DEB04ACB3211921 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				704959D877F76DC53647AC98012E50C3 /* libPods-VOLoginCommponet.a */,
-				27CC369797DDA4B8309DA83550EDF8B6 /* libVOToleranceTool.a */,
+				C525611738DD2505B1F985FF5A46E812 /* VOBaseViewController */,
+				1E8782D8BF9D3B718605FF30D26CA6A0 /* VOJSONModel */,
+				9F7727998E4EF4C0CF7C2D7B17457262 /* VOToleranceTool */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		99D308010179D51A2FDD05007EC70D12 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B143525924900506AE567463E0723206 /* VOJSONModel.xcconfig */,
+				0B52E1E87A6CFDE784C992C4BC7E46F9 /* VOJSONModel-dummy.m */,
+				1EE6AA21CE8F76FF21C43C94649E2D01 /* VOJSONModel-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/VOJSONModel";
+			sourceTree = "<group>";
+		};
+		9E9E0B9C8FA1BBB4732931304FC16EB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD4EB1F09678C39D8E2EAD90A3199E84 /* libPods-VOLoginCommponet.a */,
+				A68BC2806D68263FE40BD879295067E5 /* libVOBaseViewController.a */,
+				CEFF60C8C61712410CEB0BC426CA9ED1 /* libVOJSONModel.a */,
+				A0B504569C02B0C8346619CE2E207070 /* libVOToleranceTool.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		9F7727998E4EF4C0CF7C2D7B17457262 /* VOToleranceTool */ = {
+			isa = PBXGroup;
+			children = (
+				CB702C21631052CEF628FE98B2433F1B /* NSArray+Category.h */,
+				1D25007FC0D8F976EAD3034B00389746 /* NSArray+Category.m */,
+				C2088BF1BFC5784DE171281AB5ED4578 /* NSDictionary+Category.h */,
+				6F987CFAA208AD0BE4D97EF002981FFB /* NSDictionary+Category.m */,
+				2AB5303429C71763072F42AA88BB09E7 /* NSMutableArray+Category.h */,
+				80EC0D210E4AFCA2E83A9786C5F7F5A1 /* NSMutableArray+Category.m */,
+				4EC51E77F4B225276C8F08F1EEBDE8FD /* NSMutableDictionary+Category.h */,
+				572ABAAEC5C0E4F6B711FE3901DDF943 /* NSMutableDictionary+Category.m */,
+				DD676C980FD7BFEF2CACDFDC82770813 /* NSString+DateString.h */,
+				D8B44D5F6AC9CB4913A8E5058B611C9A /* NSString+DateString.m */,
+				EF844959D75C9C251FB305B4215D2579 /* NSString+ReplaceSpace.h */,
+				42237FB26FA44FBEE45DBA46F1F9D252 /* NSString+ReplaceSpace.m */,
+				FE6B8FE975FE924B38DEBFDFD10B0911 /* NSString+URLCode.h */,
+				CD852A22DA4EDAABB55964151074ADAB /* NSString+URLCode.m */,
+				7F0716A16E1DEB2449DE75A515300B6D /* UIColor+Category.h */,
+				6B04ADBBB21300DF1BF98B32F2D68D70 /* UIColor+Category.m */,
+				B7F4F5A80817784D3FD5D75F8A8BD9E8 /* UIImage+Color.h */,
+				36D886AAA2F378E869CE7CB33AE36720 /* UIImage+Color.m */,
+				8857FF956FEA107D9BDB5A58D1136B25 /* UIView+Frame.h */,
+				B2A6AB7B9E79FDDA205CFB9D1B4D6E3C /* UIView+Frame.m */,
+				17C5D6556B7A6149759F46934E6C1A22 /* VOCategorySet.h */,
+				82D6B1CA82A6D01FED4341A6AC01D011 /* Support Files */,
+			);
+			name = VOToleranceTool;
+			path = VOToleranceTool;
+			sourceTree = "<group>";
+		};
+		BDFD9F4C114283A594E4111296660990 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE431EB33F86E80831504928966929B0 /* VOBaseViewController.xcconfig */,
+				795A2D850075BECDF205902A22FC8CCF /* VOBaseViewController-dummy.m */,
+				3F6BC01B6A4E55A43F741B52A1D2AEC7 /* VOBaseViewController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/VOBaseViewController";
+			sourceTree = "<group>";
+		};
+		C525611738DD2505B1F985FF5A46E812 /* VOBaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FF155E0E9A53950BED7F8FBF84950927 /* BaseViewController.h */,
+				6AED3F04CB970BEF91898168ABF35DE8 /* BaseViewController.m */,
+				1E169E6D67BE44F3E919D0398FEEDA07 /* VOBaseNavViewController.h */,
+				AA3F51BB9B6569FEC474243FAC1F0307 /* VOBaseNavViewController.m */,
+				BDFD9F4C114283A594E4111296660990 /* Support Files */,
+			);
+			name = VOBaseViewController;
+			path = VOBaseViewController;
 			sourceTree = "<group>";
 		};
 		FFE86DE8F5745B71027AC4393B104152 /* Pods-VOLoginCommponet */ = {
@@ -217,34 +358,75 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		9D5D40BAF9A71AD3CDFB67A650F45670 /* Headers */ = {
+		9C406F19ECEC4A980A6F4F5D7207E9D3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BD808458CDA325D7741E0F215C8DA88 /* NSArray+Category.h in Headers */,
-				93C51106B23C4748807DC738A790AA68 /* NSDictionary+Category.h in Headers */,
-				3F9FD88F0FF9C502AED9117E25FD0D21 /* NSMutableArray+Category.h in Headers */,
-				58F2EB7070B16CE8BB4F5E6F35CD8E6C /* NSMutableDictionary+Category.h in Headers */,
-				AFC4CD6AC5ACD7506407417E33937D58 /* NSString+DateString.h in Headers */,
-				358739A6D8181B5E6B14339F9BA7ED47 /* NSString+ReplaceSpace.h in Headers */,
-				6EC53009521A4DE87DC05248F4E5F36E /* NSString+URLCode.h in Headers */,
-				5E5D2F191AAA58B94FC4BA14EEB3D8EE /* UIColor+Category.h in Headers */,
-				7AE1D463591D97DDD1130859BCD99179 /* UIImage+Color.h in Headers */,
-				5E17BC4BF713712F08869B988A02A1C1 /* UIView+Frame.h in Headers */,
-				CDD77D167333DBEF361D634A58586067 /* VOCategorySet.h in Headers */,
+				2702AF681093DD6F7652B619CA1F129B /* NSArray+Category.h in Headers */,
+				2AC2F9FE568DAAA4FED484B15036A564 /* NSDictionary+Category.h in Headers */,
+				6697F722AB66D451B81F596207501105 /* NSMutableArray+Category.h in Headers */,
+				A5A95B6F7A06F674951400091F2B0C52 /* NSMutableDictionary+Category.h in Headers */,
+				A1D15A6E0D32F6BD00B3907D5AE5D3FB /* NSString+DateString.h in Headers */,
+				2F2ACE17DD9835ADCB0D10421CEDCC07 /* NSString+ReplaceSpace.h in Headers */,
+				C1486409C9D2DF61E9CC2D2EF995C135 /* NSString+URLCode.h in Headers */,
+				EE88E1B00FB79E76825236023F4319EF /* UIColor+Category.h in Headers */,
+				A93E0F282F49B40AB9BB407F776DCD24 /* UIImage+Color.h in Headers */,
+				4DDB6CA581382CEE41FFB76A2072ADD2 /* UIView+Frame.h in Headers */,
+				33799F2A5926253F60454DDA2D949BED /* VOCategorySet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B414A2BF6C165008BB08B2C541C3B9C6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6864BC497F3C41053AF923425F7CD0BD /* BaseViewController.h in Headers */,
+				F034D3AF5FECFC1303281C12A811DA08 /* VOBaseNavViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1CB77E929E9DAFA3C180C1C545BEE75 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21975E3A705CC20152010158091DB3A5 /* NSArray+VOJSONModel.h in Headers */,
+				F7B42BA689922392467712B6544D2EBB /* NSDictionary+VOJSONModel.h in Headers */,
+				6837FB43808CE39066A1E81D80071F1D /* VOJSONModel.h in Headers */,
+				E8D4E478C07D2777AD5327C4B2B2F49D /* VOJSONModelError.h in Headers */,
+				A56684E400483C75C1F93E2E6EF5AAC8 /* VOJSONModelKeyMapper.h in Headers */,
+				90AB3802C525FD7B87D8DBF9C127EE8D /* VOJSONModelProperty.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2AE9EB54BD3EB824FF71E6A0C0757537 /* VOToleranceTool */ = {
+		031034E3A2A5FA314ECDF659D15C2B1E /* Pods-VOLoginCommponet */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7188B0C7C9C2E999D3BE8D91B50A9E74 /* Build configuration list for PBXNativeTarget "VOToleranceTool" */;
+			buildConfigurationList = 73A0BB591B57913BE7103573041988D8 /* Build configuration list for PBXNativeTarget "Pods-VOLoginCommponet" */;
 			buildPhases = (
-				A65358234A2D2A9516D0947D292151B7 /* Sources */,
-				9EF5255BC26023FFBDFEC9D998131C9D /* Frameworks */,
-				9D5D40BAF9A71AD3CDFB67A650F45670 /* Headers */,
+				11592425283EDCC529815F8FC11F3D97 /* Sources */,
+				6BF414E2E927CB98B7B8701958175B55 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D578F1ABF968C70E6CEA0BE28553BFF /* PBXTargetDependency */,
+				566E28C3AE9887D8E3C80D520118F8D7 /* PBXTargetDependency */,
+				DE699691772010A9BA426F45131259B8 /* PBXTargetDependency */,
+			);
+			name = "Pods-VOLoginCommponet";
+			productName = "Pods-VOLoginCommponet";
+			productReference = DD4EB1F09678C39D8E2EAD90A3199E84 /* libPods-VOLoginCommponet.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4DE48963679D5B2552480B50E81F32E1 /* VOToleranceTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA438E0E97D7AE41AFEF1193A3678A0F /* Build configuration list for PBXNativeTarget "VOToleranceTool" */;
+			buildPhases = (
+				9EC1A145CC28879805B6F1CE1F7DA995 /* Sources */,
+				EDFD741F78BCBC337C43F8DC33D660C1 /* Frameworks */,
+				9C406F19ECEC4A980A6F4F5D7207E9D3 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -252,24 +434,42 @@
 			);
 			name = VOToleranceTool;
 			productName = VOToleranceTool;
-			productReference = 27CC369797DDA4B8309DA83550EDF8B6 /* libVOToleranceTool.a */;
+			productReference = A0B504569C02B0C8346619CE2E207070 /* libVOToleranceTool.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		A7988C26583EBCC34DA9F593DE01098F /* Pods-VOLoginCommponet */ = {
+		985754C00EE7A80FFE723BA23381DA59 /* VOJSONModel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 27CBBFD5722E87076AF6B5B4EA9DF773 /* Build configuration list for PBXNativeTarget "Pods-VOLoginCommponet" */;
+			buildConfigurationList = AF714B02EF01877E8D6CFA88D37139AB /* Build configuration list for PBXNativeTarget "VOJSONModel" */;
 			buildPhases = (
-				A6EE4DF5C84150E9418EC82CA35F641D /* Sources */,
-				3F42247FF33FA3134B03EF42ED7C5651 /* Frameworks */,
+				9D9B6185B34C583DC2A706DDE5B87B19 /* Sources */,
+				89B9101A0031A6096E091F566F49CD37 /* Frameworks */,
+				E1CB77E929E9DAFA3C180C1C545BEE75 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E6B876B5A094186290751DB96179EF4F /* PBXTargetDependency */,
 			);
-			name = "Pods-VOLoginCommponet";
-			productName = "Pods-VOLoginCommponet";
-			productReference = 704959D877F76DC53647AC98012E50C3 /* libPods-VOLoginCommponet.a */;
+			name = VOJSONModel;
+			productName = VOJSONModel;
+			productReference = CEFF60C8C61712410CEB0BC426CA9ED1 /* libVOJSONModel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F4036BD03F5F10E22000FABD5BA4B8C5 /* VOBaseViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE800A21EDC43BBB1452FF3C21C817CD /* Build configuration list for PBXNativeTarget "VOBaseViewController" */;
+			buildPhases = (
+				19275C15C0D51CC5B49760119675E05E /* Sources */,
+				47C25223AFBAE25717F21979AB4819D2 /* Frameworks */,
+				B414A2BF6C165008BB08B2C541C3B9C6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A7AD790205186412616C42628432019 /* PBXTargetDependency */,
+			);
+			name = VOBaseViewController;
+			productName = VOBaseViewController;
+			productReference = A68BC2806D68263FE40BD879295067E5 /* libVOBaseViewController.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -289,51 +489,95 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = E571AFE59985C15B883CA11BE89110C7 /* Products */;
+			productRefGroup = 9E9E0B9C8FA1BBB4732931304FC16EB5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A7988C26583EBCC34DA9F593DE01098F /* Pods-VOLoginCommponet */,
-				2AE9EB54BD3EB824FF71E6A0C0757537 /* VOToleranceTool */,
+				031034E3A2A5FA314ECDF659D15C2B1E /* Pods-VOLoginCommponet */,
+				F4036BD03F5F10E22000FABD5BA4B8C5 /* VOBaseViewController */,
+				985754C00EE7A80FFE723BA23381DA59 /* VOJSONModel */,
+				4DE48963679D5B2552480B50E81F32E1 /* VOToleranceTool */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A65358234A2D2A9516D0947D292151B7 /* Sources */ = {
+		11592425283EDCC529815F8FC11F3D97 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18207AAAB3B2366250BFDB8B4EA56ADE /* NSArray+Category.m in Sources */,
-				B1FC7CF36603780B56F19BEA2736F2EC /* NSDictionary+Category.m in Sources */,
-				98F4BE2EFDF2148ED7ABAB0C45935479 /* NSMutableArray+Category.m in Sources */,
-				76911C28159BAB0E68F6B79EEE8B6C15 /* NSMutableDictionary+Category.m in Sources */,
-				80BD90B92ED3688D603562FA3443D033 /* NSString+DateString.m in Sources */,
-				CEADCE0A72993161627CA8CAD765D6EA /* NSString+ReplaceSpace.m in Sources */,
-				1B660A52EF8CB143A1A72F39D8DFCE3A /* NSString+URLCode.m in Sources */,
-				3E21821F24B5DCABD1886A2428D0EA72 /* UIColor+Category.m in Sources */,
-				62F8EA60C199F5671E1CDFD111301957 /* UIImage+Color.m in Sources */,
-				08D26ED922AA8FABA7D202FEC6D1B405 /* UIView+Frame.m in Sources */,
-				CD09AC54F4322451904778D25C6F5B03 /* VOToleranceTool-dummy.m in Sources */,
+				8CE8887A6E7317C8395615323FC8D90D /* Pods-VOLoginCommponet-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6EE4DF5C84150E9418EC82CA35F641D /* Sources */ = {
+		19275C15C0D51CC5B49760119675E05E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2A49C0995102677D03817259997619D /* Pods-VOLoginCommponet-dummy.m in Sources */,
+				4643AE3BBE81E6364ECB7519673221D2 /* BaseViewController.m in Sources */,
+				59D11617CEB7491D2BE7CD9D9F1E8CA5 /* VOBaseNavViewController.m in Sources */,
+				257FD7018D79E0A67EC633E30C12CFAF /* VOBaseViewController-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D9B6185B34C583DC2A706DDE5B87B19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				860DC5A4C8CA094E4A0C38D4C89996E3 /* NSArray+VOJSONModel.m in Sources */,
+				E4829F8FAF05F3E0015D0770DEA0660E /* NSDictionary+VOJSONModel.m in Sources */,
+				CE142655B045578FC0412B23BD96EB61 /* VOJSONModel-dummy.m in Sources */,
+				45F17084C02D7BE0B5493171932DEA29 /* VOJSONModel.m in Sources */,
+				260DA6CA0B4A26CC1F22BA1FB8721EF0 /* VOJSONModelError.m in Sources */,
+				11291F71039DEA2D79DC786DEC15990B /* VOJSONModelKeyMapper.m in Sources */,
+				D4F2584C8185E139DD3837F699D73FBE /* VOJSONModelProperty.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EC1A145CC28879805B6F1CE1F7DA995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6933D7FC9DFE15D756DD02199711F222 /* NSArray+Category.m in Sources */,
+				78E9B82F9851ADD00EDEB71055327EBF /* NSDictionary+Category.m in Sources */,
+				FF7A7935CE09C1CE5B8F4655AC5E0F96 /* NSMutableArray+Category.m in Sources */,
+				ED73343A6DBA559883788DF1FFEB1E1D /* NSMutableDictionary+Category.m in Sources */,
+				6165A6857B7F978273D49F32430FA96E /* NSString+DateString.m in Sources */,
+				4FC6A21BA822BA06459B7AEAB2BD02DA /* NSString+ReplaceSpace.m in Sources */,
+				3ECC1287571BFBBC3D72B8C7C8EEBEA9 /* NSString+URLCode.m in Sources */,
+				CDC8A4336E351ED0F3712DDFF63824F6 /* UIColor+Category.m in Sources */,
+				3F34B63A8701D8FF024E166F9FB82404 /* UIImage+Color.m in Sources */,
+				B57DDF6E5C247670001625F75513F501 /* UIView+Frame.m in Sources */,
+				BE529179A7191C9311ACF1BFBCB7AC44 /* VOToleranceTool-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E6B876B5A094186290751DB96179EF4F /* PBXTargetDependency */ = {
+		566E28C3AE9887D8E3C80D520118F8D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VOJSONModel;
+			target = 985754C00EE7A80FFE723BA23381DA59 /* VOJSONModel */;
+			targetProxy = 58EABF59C12A8D97EA2E3C0CFB37880E /* PBXContainerItemProxy */;
+		};
+		7A7AD790205186412616C42628432019 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = VOToleranceTool;
-			target = 2AE9EB54BD3EB824FF71E6A0C0757537 /* VOToleranceTool */;
-			targetProxy = 2D917CBB646FB8DEB2F2CE118973EA8B /* PBXContainerItemProxy */;
+			target = 4DE48963679D5B2552480B50E81F32E1 /* VOToleranceTool */;
+			targetProxy = DB8CE725DF0E62EE4804A133CF6D7766 /* PBXContainerItemProxy */;
+		};
+		8D578F1ABF968C70E6CEA0BE28553BFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VOBaseViewController;
+			target = F4036BD03F5F10E22000FABD5BA4B8C5 /* VOBaseViewController */;
+			targetProxy = 65E51FEBA02CE794D38C11C69E92FE2F /* PBXContainerItemProxy */;
+		};
+		DE699691772010A9BA426F45131259B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VOToleranceTool;
+			target = 4DE48963679D5B2552480B50E81F32E1 /* VOToleranceTool */;
+			targetProxy = 83604A566A13DD7FEE3838A7975B2C4F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -401,30 +645,33 @@
 			};
 			name = Debug;
 		};
-		3CE8FAC4482DBE7B60D72F17DB713D4F /* Debug */ = {
+		1EDD492D80972D68F20F275241D945CA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 71A25491CF32A67D0F0B756BF8650F4B /* Pods-VOLoginCommponet.debug.xcconfig */;
+			baseConfigurationReference = CE431EB33F86E80831504928966929B0 /* VOBaseViewController.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/VOBaseViewController/VOBaseViewController-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = VOBaseViewController;
+				PRODUCT_NAME = VOBaseViewController;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
-		441F38FC27988A5904212EFFAF251A59 /* Debug */ = {
+		2910B4DDD14BA8DC656ABA52FF05422E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1F0675762672AEB3C5BAD6E3558C4B9 /* VOToleranceTool.xcconfig */;
+			baseConfigurationReference = 8C982363DC87526865AF285A1A7C2205 /* VOToleranceTool.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -445,9 +692,9 @@
 			};
 			name = Debug;
 		};
-		B83AC9DC7C504AAD92200FF2D567B36D /* Release */ = {
+		820B196DEAE79049A257913C2E149C9C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1F0675762672AEB3C5BAD6E3558C4B9 /* VOToleranceTool.xcconfig */;
+			baseConfigurationReference = 8C982363DC87526865AF285A1A7C2205 /* VOToleranceTool.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -469,7 +716,56 @@
 			};
 			name = Release;
 		};
-		E36F5695A26E5A8FE40783F5E0479EC1 /* Release */ = {
+		9ED58D27C1C0E14C95CADD5B63157DE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B143525924900506AE567463E0723206 /* VOJSONModel.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/VOJSONModel/VOJSONModel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = VOJSONModel;
+				PRODUCT_NAME = VOJSONModel;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A370194063BDD7B2BA5E61058D892713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B143525924900506AE567463E0723206 /* VOJSONModel.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/VOJSONModel/VOJSONModel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = VOJSONModel;
+				PRODUCT_NAME = VOJSONModel;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBB2C3428EC5A0B94D84268F33630D20 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 543D43F1E3F0FFCDF6CCFAF0EAF6FA20 /* Pods-VOLoginCommponet.release.xcconfig */;
 			buildSettings = {
@@ -490,6 +786,50 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		C40AF40CD98AF5866AF57A79F373BCC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE431EB33F86E80831504928966929B0 /* VOBaseViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/VOBaseViewController/VOBaseViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = VOBaseViewController;
+				PRODUCT_NAME = VOBaseViewController;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3B16E1B5E0F5A6B4F9405548B9EA802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71A25491CF32A67D0F0B756BF8650F4B /* Pods-VOLoginCommponet.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -552,15 +892,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		27CBBFD5722E87076AF6B5B4EA9DF773 /* Build configuration list for PBXNativeTarget "Pods-VOLoginCommponet" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3CE8FAC4482DBE7B60D72F17DB713D4F /* Debug */,
-				E36F5695A26E5A8FE40783F5E0479EC1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -570,11 +901,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7188B0C7C9C2E999D3BE8D91B50A9E74 /* Build configuration list for PBXNativeTarget "VOToleranceTool" */ = {
+		73A0BB591B57913BE7103573041988D8 /* Build configuration list for PBXNativeTarget "Pods-VOLoginCommponet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				441F38FC27988A5904212EFFAF251A59 /* Debug */,
-				B83AC9DC7C504AAD92200FF2D567B36D /* Release */,
+				D3B16E1B5E0F5A6B4F9405548B9EA802 /* Debug */,
+				BBB2C3428EC5A0B94D84268F33630D20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE800A21EDC43BBB1452FF3C21C817CD /* Build configuration list for PBXNativeTarget "VOBaseViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C40AF40CD98AF5866AF57A79F373BCC5 /* Debug */,
+				1EDD492D80972D68F20F275241D945CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF714B02EF01877E8D6CFA88D37139AB /* Build configuration list for PBXNativeTarget "VOJSONModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ED58D27C1C0E14C95CADD5B63157DE9 /* Debug */,
+				A370194063BDD7B2BA5E61058D892713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA438E0E97D7AE41AFEF1193A3678A0F /* Build configuration list for PBXNativeTarget "VOToleranceTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2910B4DDD14BA8DC656ABA52FF05422E /* Debug */,
+				820B196DEAE79049A257913C2E149C9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
