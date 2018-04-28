@@ -1,6 +1,6 @@
 #import "VOJSONModel.h"
 #import "VOContractTimesModel.h"
-#import "VOContractTimesModel.h"
+
 
 @interface VOProjectsModel : VOJSONModel
 

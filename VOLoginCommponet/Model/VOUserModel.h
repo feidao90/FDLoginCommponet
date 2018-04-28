@@ -2,12 +2,10 @@
 #import "VOMembersModel.h"
 
 #import "VOProjectsModel.h"
-#import "VOProjectsModel.h"
-
 #import "VOAvatarModel.h"
-#import "VODeailAssociatorModel.h"
 
 @class VOUserProcessingApplicationModel;
+@class VOUserAssociatorEnterpriseModel;
 @interface VOUserModel : VOJSONModel
 
 @property (nonatomic) NSString *wechat;
@@ -46,7 +44,7 @@
 @property (nonatomic) NSString *introduction;
 @property (nonatomic) NSString *weibo;
 
-@property (nonatomic,strong) VODetailAssociatorEnterpriseModel *enterprise;
+@property (nonatomic,strong) VOUserAssociatorEnterpriseModel *enterprise;
 @property (nonatomic,copy) NSString *userId;
 @end
 
@@ -61,6 +59,15 @@
 @end
 
 @interface VOUserEnterPriseOfProcessModel : VOJSONModel
+
+@property (nonatomic,strong) VOAvatarModel *avatar;
+@property (nonatomic,copy) NSString *name;
+
+@property (nonatomic,copy) NSString *serviceScope;
+@property (nonatomic,copy) NSString *userId;
+@end
+
+@interface VOUserAssociatorEnterpriseModel : VOJSONModel
 
 @property (nonatomic,strong) VOAvatarModel *avatar;
 @property (nonatomic,copy) NSString *name;

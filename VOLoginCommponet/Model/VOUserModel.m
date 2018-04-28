@@ -8,3 +8,6 @@
 
 @implementation VOUserProcessingApplicationModel
 @end
+
+@implementation VOUserAssociatorEnterpriseModel
+@end
