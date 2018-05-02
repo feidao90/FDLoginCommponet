@@ -13,7 +13,6 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		86348C2B20932D5200A33BF8 /* VOLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 86348C0920932D5200A33BF8 /* VOLoginManager.m */; };
 		86348C2C20932D5200A33BF8 /* VOAvatarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 86348C0C20932D5200A33BF8 /* VOAvatarModel.m */; };
 		86348C2D20932D5200A33BF8 /* VOContractTimesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 86348C0E20932D5200A33BF8 /* VOContractTimesModel.m */; };
 		86348C2E20932D5200A33BF8 /* VOLoginRequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 86348C1020932D5200A33BF8 /* VOLoginRequestModel.m */; };
@@ -42,8 +41,6 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		76F94F8722A6482114090642 /* Pods_VOLoginCommponet_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VOLoginCommponet_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		86348C0820932D5200A33BF8 /* VOLoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VOLoginManager.h; sourceTree = "<group>"; };
-		86348C0920932D5200A33BF8 /* VOLoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VOLoginManager.m; sourceTree = "<group>"; };
 		86348C0B20932D5200A33BF8 /* VOAvatarModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VOAvatarModel.h; sourceTree = "<group>"; };
 		86348C0C20932D5200A33BF8 /* VOAvatarModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VOAvatarModel.m; sourceTree = "<group>"; };
 		86348C0D20932D5200A33BF8 /* VOContractTimesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VOContractTimesModel.h; sourceTree = "<group>"; };
@@ -157,21 +154,11 @@
 		86348C0620932D5200A33BF8 /* VOLoginCommponet */ = {
 			isa = PBXGroup;
 			children = (
-				86348C0720932D5200A33BF8 /* Manager */,
 				86348C0A20932D5200A33BF8 /* Model */,
 				86348C1920932D5200A33BF8 /* View */,
 				86348C2020932D5200A33BF8 /* ViewController */,
 			);
 			path = VOLoginCommponet;
-			sourceTree = "<group>";
-		};
-		86348C0720932D5200A33BF8 /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-				86348C0820932D5200A33BF8 /* VOLoginManager.h */,
-				86348C0920932D5200A33BF8 /* VOLoginManager.m */,
-			);
-			path = Manager;
 			sourceTree = "<group>";
 		};
 		86348C0A20932D5200A33BF8 /* Model */ = {
@@ -320,7 +307,6 @@
 				86348C3520932D5200A33BF8 /* VOPasswordTextField.m in Sources */,
 				86348C3A20932D5200A33BF8 /* VORestPasswordViewController.m in Sources */,
 				86348C2C20932D5200A33BF8 /* VOAvatarModel.m in Sources */,
-				86348C2B20932D5200A33BF8 /* VOLoginManager.m in Sources */,
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
 				86348C2F20932D5200A33BF8 /* VOLoginResponseModel.m in Sources */,
 				86348C3620932D5200A33BF8 /* VOLoginViewController.m in Sources */,
